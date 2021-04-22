@@ -24,3 +24,4 @@ config_by_name = dict(
 )
 
 key = Config.SECRET_KEY
+env = os.getenv('APP_ENV')

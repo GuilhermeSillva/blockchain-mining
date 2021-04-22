@@ -1,6 +1,6 @@
 from app.main import data_base as db
-
 class BaseModel:
+
     def __commit_changes(self):
         db.session.commit()
 

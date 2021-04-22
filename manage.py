@@ -5,6 +5,7 @@ from app.main import create_app, data_base
 from app import blueprint
 
 # models
+from app.main.model.block import block_model
 
 app = create_app(os.getenv('APP_ENV'))
 app.register_blueprint(blueprint)
